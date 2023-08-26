@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>MyGPUList - Lista de GPUs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <h1>MyGPUList - Lista de GPUs</h1>
+      <h2>Lista de melhores GPUs</h2>
+    </header>
+
+    <!-- Artigo -->
+    <article>
+      <p>
+        Porque é importante ter uma boa GPU? A GPU é um dos componentes mais
+        importantes de um computador, pois é ela que vai processar os gráficos e
+        imagens que você vê na tela. Quanto mais potente for a GPU, mais rápido
+        ela vai conseguir processar essas imagens e, consequentemente, melhor
+        vai ser a qualidade delas. Por isso, é importante ter uma boa GPU, pois
+        ela vai garantir que você tenha uma boa experiência com o seu
+        computador.
+      </p>
+    </article>
+    <!-- Listagem das gpus -->
+    <section id="gpu-list">
+      <ul>
+        <li>
+          <a
+            href="https://www.nvidia.com/pt-br/geforce/graphics-cards/40-series/rtx-4090/"
+          >
+            <image
+              src="./images/nvidia.jpg"
+              alt="RTX 4090"
+              width="100"
+              height="100"
+            />
+            <p style="color: green"><b>NVIDIA® GeForce RTX® 4090</b></p>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.amd.com/pt/products/graphics/amd-radeon-rx-6600">
+            <image
+              src="./images/amd.jpg"
+              alt="RX 6600"
+              width="100"
+              height="100"
+            />
+            <p style="color: red"><b>AMD Radeon™ RX 7900 XTX</b></p>
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.intel.com.br/content/www/br/pt/products/sku/229151/intel-arc-a770-graphics-16gb/specifications.html"
+          >
+            <image
+              src="./images/amd.jpg"
+              alt="RX 6600"
+              width="100"
+              height="100"
+            />
+            <p style="color: blue"><b>Intel® Arc™ A770</b></p>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <br />
+    <hr />
+
+    <!-- Table -->
+    <section>
+      <h2>Tabela de Comparativo de GPUs</h2>
+      <table style="width: 50%">
+        <thead>
+          <tr style="text-align: center">
+            <th>Modelo</th>
+            <th>Memória</th>
+            <th>Clock</th>
+            <th>Preço Médio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="text-align: center">
+            <td>RTX 4090</td>
+            <td>24GB</td>
+            <td>2.4GHz</td>
+            <td><b>R$ 20.000,00</b></td>
+          </tr>
+
+          <tr style="text-align: center">
+            <td>RX 7900 XTX</td>
+            <td>16GB</td>
+            <td>2.2GHz</td>
+            <td><b>R$ 15.000,00</b></td>
+          </tr>
+
+          <tr style="text-align: center">
+            <td>Intel® Arc™ A770</td>
+            <td>16GB</td>
+            <td>2.2GHz</td>
+            <td><b>R$ 10.000,00</b></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <br />
+    <hr />
+
+    <!-- form -->
+    <section>
+      <h1>Deseja comprar uma GPU? Preencha o formulário abaixo!</h1>
+      <form
+        action="https://www.w3schools.com/action_page.php"
+        method="get"
+        style="
+          display: flex;
+          flex: 1;
+          flex-direction: column;
+          gap: 20px;
+          align-items: start;
+        "
+      >
+        <input
+          type="text"
+          name="nome"
+          maxlength="15"
+          placeholder="Nome"
+          required
+        />
+        <input type="text" readonly name="nao-editavel" value="readonly" />
+        <input
+          type="number"
+          name="orcamento"
+          min="25000"
+          max="30000"
+          step="1"
+          placeholder="Orçamento da sua gpu"
+        />
+
+        <!-- Checkbox e radiobox -->
+        <div>
+          <label for="checkbox"
+            >Deseja que a compra da GPU seja realizada?</label
+          >
+          <input type="checkbox" name="checkbox" value="checkbox" checked />
+        </div>
+
+        <label> Qual marca de GPU você prefere?</label>
+        <div>
+          <input type="radio" name="radio" value="nvidia" checked />
+          <label for="nvidia">NVIDIA</label>
+        </div>
+        <div>
+          <input type="radio" name="radio" value="amd" />
+          <label for="amd">AMD</label>
+        </div>
+        <div>
+          <input type="radio" name="radio" value="intel" />
+          <label for="intel">Intel</label>
+        </div>
+
+        <!-- submit -->
+        <input type="submit" value="Enviar" />
+      </form>
+    </section>
+  </body>
+</html>
