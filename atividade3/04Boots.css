@@ -1,0 +1,175 @@
+.boots {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
+
+div.relative_boots {
+  position: relative;
+  width: 240px;
+  height: 60px;
+  left: 160px;
+  top: 70px;
+}
+
+div.absolute_boots_left {
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  left: 0;
+  top: -10px;
+}
+
+div.absolute_boots_right {
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  left: 140px;
+  top: -10px;
+}
+
+div.absolute_boots_left01 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: brown;
+}
+div.absolute_boots_left02 {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  background-color: brown;
+}
+div.absolute_boots_left03 {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  background-color: brown;
+}
+div.absolute_boots_left04 {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  background-color: brown;
+}
+div.absolute_boots_left05 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: brown;
+}
+div.absolute_boots_left06 {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  background-color: brown;
+}
+div.absolute_boots_left07 {
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  background-color: brown;
+}
+div.absolute_boots_left08 {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: brown;
+}
+div.absolute_boots_left09 {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  background-color: brown;
+}
+div.absolute_boots_left10 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background-color: brown;
+}
+div.absolute_boots_left11 {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  background-color: brown;
+}
+div.absolute_boots_left12 {
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  background-color: brown;
+}
+
+div.absolute_boots_right01 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: brown;
+}
+div.absolute_boots_right02 {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  background-color: brown;
+}
+div.absolute_boots_right03 {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  background-color: brown;
+}
+div.absolute_boots_right04 {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  background-color: brown;
+}
+div.absolute_boots_right05 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: brown;
+}
+div.absolute_boots_right06 {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  background-color: brown;
+}
+div.absolute_boots_right07 {
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  background-color: brown;
+}
+div.absolute_boots_right08 {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: brown;
+}
+div.absolute_boots_right09 {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  background-color: brown;
+}
+div.absolute_boots_right10 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background-color: brown;
+}
+div.absolute_boots_right11 {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  background-color: brown;
+}
+div.absolute_boots_right12 {
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  background-color: brown;
+}
