@@ -43,14 +43,6 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  line-height: inherit;
-}
-
-*,
-::before,
-::after {
-  box-sizing: border-box; /* 1 */
-  border-width: 0; /* 2 */
 }
 
 .articles > article {
@@ -90,16 +82,30 @@ body {
 }
 
 .sidemenu {
+  width: 400px;
   background-color: #fafafa;
   box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
-  height: 100vh;
 }
 
 .sidemenu-nav {
   display: flex;
   flex-direction: column;
-  gap: 1em;
   padding: 1em;
+  gap: 0.2em;
+}
+
+.sidemenu-nav > a {
+  padding: 1.2em 1em;
+  cursor: pointer;
+  text-decoration: none;
+  color: #222;
+  border-radius: 0.5em;
+}
+
+.sidemenu-nav > a:hover {
+  scale: 1.05;
+  background-color: #eee;
+  transition: all 0.3s ease-in-out;
 }
 
 .container {
@@ -107,5 +113,4 @@ body {
   flex-direction: row;
   gap: 1em;
   width: 100%;
-  height: 100vh;
 }
