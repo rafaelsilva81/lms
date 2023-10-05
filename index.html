@@ -7,9 +7,9 @@
         let htmlString = '<ul>';
         
         const ignoreFiles = ['README.md', 'index.html', '.github', '.gitignore'];
-        data = data.filter(file => !ignoreFiles.includes(file.name));
+        const dataFiltered = data.filter(file => !ignoreFiles.includes(file.name));
 
-        for (let file of data) {
+        for (let file of dataFiltered) {
           htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
         }
 
