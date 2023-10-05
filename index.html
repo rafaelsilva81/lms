@@ -6,6 +6,9 @@
         const data = await response.json();
         let htmlString = '<ul>';
         
+        const ignoreFiles = ['README.md', 'index.html', '.github', '.gitignore'];
+        data = data.filter(file => !ignoreFiles.includes(file.name));
+
         for (let file of data) {
           htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
         }
