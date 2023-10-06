@@ -82,7 +82,8 @@ body {
 }
 
 .sidemenu {
-  width: 400px;
+  width: 20vw;
+  height: 1200px;
   background-color: #fafafa;
   box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
 }
